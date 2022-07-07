@@ -1,9 +1,10 @@
 head, body, footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 header {
-  background-color: #f9bb0c;
+  background-color: #ff6b6c;
   font-weight: 700;
 }
 
@@ -45,11 +46,49 @@ header h1 {
   display:none;
 }
 
-
-
 .menu{
   display: inline-flex;
   float: right;
+}
+
+body {
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+table{
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.conteudo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5eeee;
+}
+
+
+.foto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.texto{
+  display: flex;
+  align-items: right;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px;
+}
+
+i {
+  font-style: italic;
 }
 
 
