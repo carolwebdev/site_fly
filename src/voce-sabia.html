@@ -10,13 +10,25 @@
   </head>
 
   <body>
+    
     <!-- Esse é o cabeçalho (header) principal que vai ser usado em todas as páginas do nosso website -->
-
     <header>
-      <h1>NOME DO SITE</h1>
+      <div class="caixa">
+        <h1><a href="./index.html"><img src="Ouvidoria.png" alt=""></a></h1>
+
+        <nav>
+          <ul class="menu-header">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./quem-somos.html">Quem somos</a></li>
+            <li><a href="./voce-sabia.html">Você Sabia?</a></li>
+            <li><a href="./materiais.html">Materiais</a></li>
+          </ul>
+        </nav>
+      </div>    
     </header>
+
     <main>
-      <li><a href="./index.html">Home</a></li>
+      
       <!-- Contém um artigo -->
       <article>
         <h2> Nosso Objetivo </h2>
@@ -52,9 +64,43 @@
     </main>
 
     <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website -->
-
     <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      <div class="formulario">
+        <p>Entre em contato</p>
+        <form>
+          <label for="nomecompleto"></label>
+          <input type="text" required placeholder="Seu nome">
+
+          <label for="email"></label>
+          <input type="email" required placeholder="seuemail@dominio.com.br">
+
+          <label for="mensagem"></label>
+          <textarea cols="30" rows="5" required placeholder="Digite sua mensagem"></textarea>
+
+          <input type="submit" value="Enviar" class="enviar">
+        </form>
+      </div>
+      
+      <div class="meio-rodape">
+        <div class="social">
+          <a href="https://www.facebook.com/flyeducacao"><img src="logo_facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/flyeducacao/"><img src="logo_instagram.png" alt=""></a>
+          <a href="https://twitter.com/AluraOnline"><img src="logo_twitter.png" alt=""></a>
+          <a href="https://www.linkedin.com/company/flyeducacao/"><img src="logo_linkedin.png" alt=""></a>
+          <a href="https://youtu.be/FazXV16-Nuw"><img src="logo_youtube.png" alt=""></a>
+        </div>
+
+          <h1 class="logo-rodape"><a href="./index.html"><img src="ouviDORRIA.png" alt=""></a></h1>  
+      </div>     
+      
+      <nav>
+        <ul class="menu-footer">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./quem-somos.html">Quem somos</a></li>
+          <li><a href="./voce-sabia.html">Você Sabia?</a></li>
+          <li><a href="./materiais.html">Materiais</a></li>
+        </ul>
+      </nav>
     </footer>
 
   </body>

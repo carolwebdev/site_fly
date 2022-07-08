@@ -1,10 +1,9 @@
 head, body, footer {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  background: #FF8383;
+  background: #E8E6E6;
   padding: 20px 0;
   margin: 0 0 20px 0;
 }
@@ -28,7 +27,7 @@ header h1 a img {
 }
 
 .menu-header li a {
-  color: #ffffff;
+  color: #737373;
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
@@ -38,56 +37,15 @@ header h1 a img {
 
 
 .menu-header li a:hover {
-  color:#7CB435;
+  color:#821752;
   -moz-box-shadow:0 3px 10px 0 #ffffff;
   -webkit-box-shadow:0 3px 10px 0 #ffffff;
   text-shadow:0px 0px 5px #ffffff;
   text-decoration: underline;
 }
 
-body {
-  justify-content: space-evenly;
-  margin: auto;
-}
-
-table{
-  width: 100%;
-  align-items: center;
-  text-align: justify;
-  line-height: 20px;
-}
-
-.conteudo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f5eeee;
-}
-
-
-.foto{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-}
-
-.texto{
-  display: flex;
-  align-items: right;
-  justify-content: space-around;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 30px;
-}
-
-i {
-  font-style: italic;
-}
-
-
 footer {
-  background: #7CB435;
+  background: #F6EFA6;
   width: 100%;
   padding: 20px 0;
   margin: 20px 0 0 0;
@@ -100,7 +58,7 @@ footer p {
 
 .formulario {
   margin: 0 0 0 40px;
-  color: #ffffff;
+  color: #821752;
 }
 
 form label {
@@ -112,7 +70,7 @@ form label {
   display: block;
   padding: 10px;
   margin: 10px 0 0 0;
-  color: #ffffff;
+  color: #821752;
   font-weight: bold;
   font-size: 20px;
   transition: 2s all;
@@ -120,12 +78,12 @@ form label {
 }
 
 .enviar:hover {
-  background: #FF8383;
+  background: #E8E6E6;
   transform: scale(1.2);
 }
 
 input, textarea {
-  background: #A9D275;
+  background:#ddd9ad;
   border: none;
   border-radius: 5px;
 }
@@ -159,7 +117,7 @@ footer h1 a img {
 }
 
 .menu-footer li a {
-  color: #ffffff;
+  color: #821752;
   font-size: 25px;
   text-decoration: none;
 }
