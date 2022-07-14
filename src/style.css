@@ -57,6 +57,20 @@ table{
   line-height: 20px;
 }
 
+article a{
+  color:#7CB435;
+  text-decoration: dashed;
+  font-size: larger;
+}
+
+article a:hover{
+  color:#FF8383;
+  -moz-box-shadow:0 3px 10px 0 #ffffff;
+  -webkit-box-shadow:0 3px 10px 0 #ffffff;
+  text-shadow:0px 0px 5px #ffffff;
+  text-decoration: underline;
+}
+
 .conteudo{
   display: flex;
   align-items: center;
