@@ -162,5 +162,14 @@ footer h1 a img {
   color: #ffffff;
   font-size: 25px;
   text-decoration: none;
+  margin: 0 10px 0 10px;
+  transition: 1s all;
 }
 
+.menu-footer li a:hover {
+  color:#FF8383;
+  -moz-box-shadow:0 3px 10px 0 #ffffff;
+  -webkit-box-shadow:0 3px 10px 0 #ffffff;
+  text-shadow:0px 0px 5px #ffffff;
+  text-decoration: underline;
+}
