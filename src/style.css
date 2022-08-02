@@ -416,3 +416,7 @@ footer h1 a img {
   align-items: center;
   justify-content: center;
 }
+
+.img-info {
+  display: none;
+}
