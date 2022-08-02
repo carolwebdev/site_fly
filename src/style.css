@@ -94,7 +94,9 @@ article a:hover{
   width: 100%;
   padding: 30px;
 }
-
+.lkd img{
+  height: 2em;
+}
 i {
   font-style: italic;
 }
